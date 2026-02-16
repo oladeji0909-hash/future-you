@@ -1,0 +1,145 @@
+{
+  "timestamp": "2026-02-16T21:59:37.183065",
+  "summary": {
+    "total": 19,
+    "passed": 19,
+    "failed": 0,
+    "skipped": 0,
+    "pass_rate": 100.0
+  },
+  "results": [
+    {
+      "category": "SERVER",
+      "test": "Server Running",
+      "status": "PASS",
+      "details": "Response: {'message': 'Future You API', 'version': '1.0.0', 'status': 'operational'}",
+      "timestamp": "2026-02-16T21:58:57.979750"
+    },
+    {
+      "category": "SERVER",
+      "test": "Health Check",
+      "status": "PASS",
+      "details": "",
+      "timestamp": "2026-02-16T21:59:00.061416"
+    },
+    {
+      "category": "AUTHENTICATION",
+      "test": "User Signup",
+      "status": "PASS",
+      "details": "Token received",
+      "timestamp": "2026-02-16T21:59:02.588396"
+    },
+    {
+      "category": "AUTHENTICATION",
+      "test": "User Login",
+      "status": "PASS",
+      "details": "",
+      "timestamp": "2026-02-16T21:59:05.087211"
+    },
+    {
+      "category": "AUTHENTICATION",
+      "test": "Get Current User",
+      "status": "PASS",
+      "details": "",
+      "timestamp": "2026-02-16T21:59:07.161627"
+    },
+    {
+      "category": "MESSAGES",
+      "test": "Create Message",
+      "status": "PASS",
+      "details": "Message ID: 16, AI timing working",
+      "timestamp": "2026-02-16T21:59:09.279280"
+    },
+    {
+      "category": "MESSAGES",
+      "test": "Get All Messages",
+      "status": "PASS",
+      "details": "Found 1 messages",
+      "timestamp": "2026-02-16T21:59:11.326029"
+    },
+    {
+      "category": "MESSAGES",
+      "test": "Get Specific Message",
+      "status": "PASS",
+      "details": "",
+      "timestamp": "2026-02-16T21:59:13.393517"
+    },
+    {
+      "category": "AI COMPANION",
+      "test": "Companion Chat",
+      "status": "PASS",
+      "details": "Emotion: reflective",
+      "timestamp": "2026-02-16T21:59:16.375057"
+    },
+    {
+      "category": "PAYMENTS",
+      "test": "Get Pricing",
+      "status": "PASS",
+      "details": "All tiers present",
+      "timestamp": "2026-02-16T21:59:18.435864"
+    },
+    {
+      "category": "PAYMENTS",
+      "test": "Check Message Limit",
+      "status": "PASS",
+      "details": "Remaining: 4",
+      "timestamp": "2026-02-16T21:59:20.526058"
+    },
+    {
+      "category": "PAYMENTS",
+      "test": "Get MRR",
+      "status": "PASS",
+      "details": "MRR: $0.0/10000",
+      "timestamp": "2026-02-16T21:59:22.594563"
+    },
+    {
+      "category": "ANALYTICS",
+      "test": "User Analytics",
+      "status": "PASS",
+      "details": "Engagement: 0",
+      "timestamp": "2026-02-16T21:59:24.682219"
+    },
+    {
+      "category": "ANALYTICS",
+      "test": "Platform Analytics",
+      "status": "PASS",
+      "details": "Users: 13",
+      "timestamp": "2026-02-16T21:59:26.767277"
+    },
+    {
+      "category": "ANALYTICS",
+      "test": "Message Timeline",
+      "status": "PASS",
+      "details": "1 messages in timeline",
+      "timestamp": "2026-02-16T21:59:28.844184"
+    },
+    {
+      "category": "DELIVERY",
+      "test": "Delivery Stats",
+      "status": "PASS",
+      "details": "Delivery rate: 0.0%",
+      "timestamp": "2026-02-16T21:59:30.942559"
+    },
+    {
+      "category": "DELIVERY",
+      "test": "My Delivery Stats",
+      "status": "PASS",
+      "details": "Read rate: 0%",
+      "timestamp": "2026-02-16T21:59:33.030770"
+    },
+    {
+      "category": "DELIVERY",
+      "test": "Upcoming Deliveries",
+      "status": "PASS",
+      "details": "0 upcoming",
+      "timestamp": "2026-02-16T21:59:35.086050"
+    },
+    {
+      "category": "DELIVERY",
+      "test": "Delivery Performance",
+      "status": "PASS",
+      "details": "Avg wait: 0 days",
+      "timestamp": "2026-02-16T21:59:37.179186"
+    }
+  ]
+}
