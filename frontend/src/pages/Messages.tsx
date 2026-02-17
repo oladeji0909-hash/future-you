@@ -40,6 +40,7 @@ const Messages: React.FC = () => {
 
   useEffect(() => {
     loadMessages();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const loadMessages = async () => {

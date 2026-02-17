@@ -20,7 +20,6 @@ import {
   Schedule,
   CheckCircle,
   Warning,
-  TrendingUp,
   Email,
 } from '@mui/icons-material';
 import axios from 'axios';

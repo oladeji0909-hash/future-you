@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Box, Container, Typography, Grid, Card, CardContent, Button, Chip, Paper } from '@mui/material';
-import { Message, Chat, Timeline, TrendingUp } from '@mui/icons-material';
+import { Message, Chat, Timeline } from '@mui/icons-material';
 import { useAppSelector } from '../hooks';
 
 const Dashboard: React.FC = () => {
