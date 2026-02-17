@@ -121,7 +121,7 @@ const Landing: React.FC = () => {
                 sx={{
                   p: 4,
                   borderRadius: 4,
-                  bgcolor: 'rgba(255,255,255,0.95)',
+                  bgcolor: 'white',
                   backdropFilter: 'blur(10px)'
                 }}
               >
@@ -191,7 +191,7 @@ const Landing: React.FC = () => {
       </Container>
 
       {/* Pricing Preview */}
-      <Box sx={{ bgcolor: '#f8f9fa', py: 10 }}>
+      <Box sx={{ bgcolor: 'white', py: 10 }}>
         <Container maxWidth="lg">
           <Typography variant="h2" fontWeight="bold" textAlign="center" gutterBottom>
             Simple Pricing
